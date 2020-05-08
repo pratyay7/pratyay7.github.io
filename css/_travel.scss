@@ -1,0 +1,495 @@
+.travel{
+    display: block;
+   
+    background: #f7f7f7;
+   z-index: 4;
+   background-size: cover;
+   height: 100%;
+   overflow: hidden;
+   border-bottom: 2px solid #212121;
+
+   .row{
+    
+       h1{
+        text-align: center;
+        color: #212121;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        letter-spacing: 1px;
+        font-size: 30px;
+        line-height: 42px;
+        font-weight: 600;
+        text-shadow: 1px 1px 1px #444444;
+        
+        margin-bottom: 45px;
+        padding: 50px 10% 30px 10%;
+       }
+   }
+   .column{
+        display: flex;
+        position: relative;
+        justify-content: space-around;
+        width: 100%;
+        height: 100%;
+        flex-wrap: wrap;
+
+        .pic-1, .pic-2, .pic-3 , .pic-4, .pic-5{
+            display: block;
+            background-image: linear-gradient(90deg, #e8e8f1 , #fdfcfd);
+            position: relative;
+            border: 1px solid #fff;
+            width: 25%;
+            
+            margin: 40px 20px 30px 0px;
+            padding: 20px ;
+            box-shadow: 0 10px 20px -12px rgba(0,0,0,.40);
+
+            @media (max-width:900px){
+                width: 40%;
+            }
+            @media (max-width:530px){
+                width: 80%;
+            }
+
+            .content{
+                h1{
+                    font-family: cursive;
+                }
+                p{
+                    font-family: monospace;
+                }
+            }
+            
+            
+             
+        }
+
+        .pic-1 { .image{
+                   
+            background-image: url(../img/Capture19.JPG);
+            background-size: contain; 
+            height: 300px;
+            width: 94%;
+            
+           
+             
+             
+          }
+        }
+
+        .pic-2 { .image{
+                   
+            background-image: url(../img/Capture.JPG);
+            background-size: cover; 
+            height: 300px;
+            width: 94%;
+            
+           
+             
+             
+          }
+        }
+
+        .pic-3 { .image{
+                   
+            background-image: url(../img/Capture14.JPG);
+            background-size: cover; 
+            height: 300px;
+            width: 94%;
+            
+           
+             
+             
+          }
+        }
+
+        .overlay{
+            background: rgba($color: #000000, $alpha: .7);
+            position: absolute;
+            height: 300px;
+            width: 85%;
+            display: none;
+
+            h1{
+                color: #f7f7f7;
+                margin-top:20px ;
+                font-size: 18px;
+                line-height: 30px;
+                text-transform: uppercase;
+                text-align: center;
+                font-family: sans-serif;
+                top: 20%;
+            }
+            button{
+                position: relative;
+                padding: 10px 16px 10px 16px;
+                color: #fff;
+                background-image: linear-gradient(90deg, #06033d , #45146d);
+                text-transform: uppercase;
+                font-weight: 400;
+                font-size: 14px;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                overflow: hidden;
+                text-align: center;
+                border: 1px solid #06033d;
+                margin: 190px 0px 0px 110px;
+                vertical-align: middle;
+                top: 30%;
+
+            }
+            button:hover{
+                background-image:  linear-gradient(90deg, #302a9b , #281438);
+                cursor: pointer;
+                transition: .6s;
+            }
+    
+        }
+
+        .pic-1:hover, .pic-2:hover, .pic-3:hover{
+            background: #fff;
+            border: 1px solid #fff;
+            
+            transition: .4s;
+            box-shadow: 0 16px 38px -12px rgba(0,0,0,.56);
+            .overlay{
+                display: block;
+                transition: .7s;
+                text-transform: uppercase;
+            }
+        }
+
+    }
+}
+
+.nature{
+    display: block;
+   
+    background: #f7f7f7;
+   z-index: 4;
+   background-size: cover;
+   height: 100%;
+   overflow: hidden;
+   border-bottom: 2px solid #212121;
+
+   .row{
+    
+       h1{
+        text-align: center;
+        color: #212121;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        letter-spacing: 1px;
+        font-size: 30px;
+        line-height: 42px;
+        font-weight: 600;
+        text-shadow: 1px 1px 1px #444444;
+        
+        margin-bottom: 45px;
+        padding: 50px 10% 30px 10%;
+       }
+   }
+   .column{
+        display: flex;
+        position: relative;
+        justify-content: space-around;
+        width: 100%;
+        height: 100%;
+        flex-wrap: wrap;
+
+        .pic-1, .pic-2, .pic-3 , .pic-4, .pic-5{
+            display: block;
+            background-image: linear-gradient(90deg, #e8e8f1 , #fdfcfd);
+            position: relative;
+            border: 1px solid #fff;
+            width: 25%;
+            
+            margin: 40px 20px 30px 0px;
+            padding: 20px ;
+            box-shadow: 0 10px 20px -12px rgba(0,0,0,.40);
+
+            @media (max-width:900px){
+                width: 40%;
+            }
+            @media (max-width:530px){
+                width: 80%;
+            }
+
+            .content{
+                h1{
+                    font-family: cursive;
+                }
+                p{
+                    font-family: monospace;
+                }
+            }
+            
+            
+             
+        }
+
+        .pic-1 { .image{
+                   
+            background-image: url(../img/Capture3.JPG);
+            background-size: contain; 
+            height: 300px;
+            width: 94%;
+            
+           
+             
+             
+          }
+        }
+
+        .pic-2 { .image{
+                   
+            background-image: url(../img/Capture11.JPG);
+            background-size: cover; 
+            height: 300px;
+            width: 94%;
+            
+           
+             
+             
+          }
+        }
+
+        .pic-3 { .image{
+                   
+            background-image: url(../img/Capture1.JPG);
+            background-size: cover; 
+            height: 300px;
+            width: 94%;
+            
+           
+             
+             
+          }
+        }
+
+        .overlay{
+            background: rgba($color: #000000, $alpha: .7);
+            position: absolute;
+            height: 300px;
+            width: 85%;
+            display: none;
+
+            h1{
+                color: #f7f7f7;
+                margin-top:20px ;
+                font-size: 18px;
+                line-height: 30px;
+                text-transform: uppercase;
+                text-align: center;
+                font-family: sans-serif;
+                top: 20%;
+            }
+            button{
+                position: relative;
+                padding: 10px 16px 10px 16px;
+                color: #fff;
+                background-image: linear-gradient(90deg, #06033d , #45146d);
+                text-transform: uppercase;
+                font-weight: 400;
+                font-size: 14px;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                overflow: hidden;
+                text-align: center;
+                border: 1px solid #06033d;
+                margin: 190px 0px 0px 110px;
+                vertical-align: middle;
+                top: 30%;
+
+            }
+            button:hover{
+                background-image:  linear-gradient(90deg, #302a9b , #281438);
+                cursor: pointer;
+                transition: .6s;
+            }
+    
+        }
+
+        .pic-1:hover, .pic-2:hover, .pic-3:hover{
+            background: #fff;
+            border: 1px solid #fff;
+            
+            transition: .4s;
+            box-shadow: 0 16px 38px -12px rgba(0,0,0,.56);
+            .overlay{
+                display: block;
+                transition: .7s;
+                text-transform: uppercase;
+            }
+        }
+
+    }
+}
+
+
+.monuments{
+    display: block;
+   
+    background: #f7f7f7;
+   z-index: 4;
+   background-size: cover;
+   height: 100%;
+   overflow: hidden;
+   border-bottom: 2px solid #212121;
+
+   .row{
+    
+       h1{
+        text-align: center;
+        color: #212121;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        letter-spacing: 1px;
+        font-size: 30px;
+        line-height: 42px;
+        font-weight: 600;
+        text-shadow: 1px 1px 1px #444444;
+        
+        margin-bottom: 45px;
+        padding: 50px 10% 30px 10%;
+       }
+   }
+   .column{
+        display: flex;
+        position: relative;
+        justify-content: space-around;
+        width: 100%;
+        height: 100%;
+        flex-wrap: wrap;
+
+        .pic-1, .pic-2, .pic-3 , .pic-4, .pic-5{
+            display: block;
+            background-image: linear-gradient(90deg, #e8e8f1 , #fdfcfd);
+            position: relative;
+            border: 1px solid #fff;
+            width: 25%;
+            
+            margin: 40px 20px 30px 0px;
+            padding: 20px ;
+            box-shadow: 0 10px 20px -12px rgba(0,0,0,.40);
+
+            @media (max-width:900px){
+                width: 40%;
+            }
+            @media (max-width:530px){
+                width: 80%;
+            }
+
+            .content{
+                h1{
+                    font-family: cursive;
+                }
+                p{
+                    font-family: monospace;
+                }
+            }
+            
+            
+             
+        }
+
+        .pic-1 { .image{
+                  
+            background-image: url(../img/Capture15.JPG);
+            background-size: cover; 
+            height: 300px;
+            width: 94%;
+            
+           
+             
+             
+          }
+          //.image:hover{
+            //  position: absolute;
+             // top: -40%;
+              //background-image: url(../img/Capture15.JPG);
+              //background-size: cover; 
+              //height: 550px;
+              //width: 400px;
+
+          //}
+        }
+
+        .pic-2 { .image{
+                   
+            background-image: url(../img/Capture16.JPG);
+            background-size: cover; 
+            height: 300px;
+            width: 94%;
+            
+           
+             
+             
+          }
+        }
+
+        .pic-3 { .image{
+                   
+            background-image: url(../img/Capture18.JPG);
+            background-size: cover; 
+            height: 300px;
+            width: 94%;
+            
+           
+             
+             
+          }
+        }
+
+        .overlay{
+            background: rgba($color: #000000, $alpha: .7);
+            position: absolute;
+            height: 300px;
+            width: 85%;
+            display: none;
+
+            h1{
+                color: #f7f7f7;
+                margin-top:20px ;
+                font-size: 18px;
+                line-height: 30px;
+                text-transform: uppercase;
+                text-align: center;
+                font-family: sans-serif;
+                top: 20%;
+            }
+            button{
+                position: relative;
+                padding: 10px 16px 10px 16px;
+                color: #fff;
+                background-image: linear-gradient(90deg, #06033d , #45146d);
+                text-transform: uppercase;
+                font-weight: 400;
+                font-size: 14px;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                overflow: hidden;
+                text-align: center;
+                border: 1px solid #06033d;
+                margin: 190px 0px 0px 110px;
+                vertical-align: middle;
+                top: 30%;
+
+            }
+            button:hover{
+                background-image:  linear-gradient(90deg, #302a9b , #281438);
+                cursor: pointer;
+                transition: .6s;
+            }
+    
+        }
+
+        .pic-1:hover, .pic-2:hover, .pic-3:hover{
+            background: #fff;
+            border: 1px solid #fff;
+            
+            transition: .4s;
+            box-shadow: 0 16px 38px -12px rgba(0,0,0,.56);
+            .overlay{
+                display: block;
+                transition: .7s;
+                text-transform: uppercase;
+            }
+        }
+
+    }
+}
